@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-images": "node -r ./tasks/create-images.js",
+    "duel-apps": "node -r ./tasks/duel-apps.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "delay": "^5.0.0",
+    "image-downloader": "^4.3.0",
+    "jimp": "^0.22.10"
+  }
 }
